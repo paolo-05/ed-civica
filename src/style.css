@@ -1,4 +1,30 @@
+:root {
+    --main-color: #00aaff;
+    --background: #1d1d1e;
+    --secondary: #00aaff;
+    --link: #00aaff;
+    --text-color: #fff;
+    --secondary-text-color: #dcdcdc;}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+}
+
 h1 {
     margin-top: 10px;
     text-align: center;
+    color: var(--main-color);
+}
+img{
+    width: fit-content;
+    height: fit-content;
+    
 }
