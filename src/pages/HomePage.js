@@ -57,16 +57,16 @@ const Home = () => {
             </div>
           </div>
           <div className="col-sm">
-            <p>Uno dei primi elementi che influisce sull’origine di questa fobia è 
-            l’autostima. Con questo termine si indica l’agglomerato complessivo dei 
+            <p>Uno dei primi elementi che influisce sull'origine di questa fobia è 
+            l'autostima. Con questo termine si indica l'agglomerato complessivo dei 
             giudizi che abbiamo di noi stessi. Il livello di autostima di un individuo 
             è fondamentale perchè determina la percezione che esso avrà della scelta 
             incombente, e quindi, del risultato finale. Gli individui con una bassa autostima
-             si percepiscono come scarsi nell’affrontare anche le scelte meno complicate, 
+             si percepiscono come scarsi nell'affrontare anche le scelte meno complicate, 
              portandoli ad affrontare le sfide e le decisioni con pessimismo. La correlazione 
              tra cambiamento e scelta è pressochè nulla, poichè da ogni scelta deriva un 
              cambiamento, dunque, è il soggetto stesso così facendo ad auto-precludersi delle 
-             possibilità di miglioramento. Un’altra importante causa è il timore di dover 
+             possibilità di miglioramento. Un'altra importante causa è il timore di dover 
              “intraprendere una strada ignota” abbandonando quella che si riconosce come 
              sicura per una nuova del quale si sa poco o niente, abbandonando così facendo 
              quella che potrebbe essere considerata una parte del proprio ego.
