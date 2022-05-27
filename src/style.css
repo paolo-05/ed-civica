@@ -19,7 +19,7 @@
 }
 
 h1 {
-    margin-top: 10px;
+    margin: 30px;
     text-align: center;
     color: var(--main-color);
 }
@@ -27,4 +27,24 @@ img{
     width: fit-content;
     height: fit-content;
     
+}
+div{
+    color: var(--text-color);
+}
+
+.grigio{
+    background: #99aab5;
+    color : var(--text-color);
+    border: 10px solid #99aab5;
+}
+
+.center {
+    font-family: sans-serif;
+  font-weight:800;
+  font-size:40px;
+  text-align: center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
 }

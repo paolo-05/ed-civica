@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button"
 
 const Layout = () => {
   return (
-    <div>
+    <div style={{background: "var(--background)"}}>
           <nav className="navbar navbar-dark navbar-expand-lg bg-dark" style={{
             color: "var(--main-color)",
             borderTopWidth: 6,
