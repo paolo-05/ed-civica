@@ -1,50 +1,56 @@
 :root {
-    --main-color: #00aaff;
-    --background: #1d1d1e;
-    --secondary: #00aaff;
-    --link: #00aaff;
-    --text-color: #fff;
-    --secondary-text-color: #dcdcdc;}
+  --main-color: #00aaff;
+  --background: #1d1d1e;
+  --secondary: #00aaff;
+  --link: #00aaff;
+  --text-color: #fff;
+  --secondary-text-color: #dcdcdc;
+}
 
 ::-webkit-scrollbar {
-    width: 8px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-    background: black;
+  background: black;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--main-color);
+  background: var(--main-color);
 }
 
 h1 {
-    margin: 30px;
-    text-align: center;
-    color: var(--main-color);
+  margin: 30px;
+  text-align: center;
+  color: var(--main-color);
 }
-img{
-    width: fit-content;
-    height: fit-content;
-    
-}
-div{
-    color: var(--text-color);
+h2 {
+  margin: 30px;
+  text-align: center;
+  color: var(--main-color);
 }
 
-.grigio{
-    background: #99aab5;
-    color : var(--text-color);
-    border: 10px solid #99aab5;
+img {
+  width: fit-content;
+  height: fit-content;
+}
+div {
+  color: var(--text-color);
+}
+
+.grigio {
+  background: #99aab5;
+  color: var(--text-color);
+  border: 10px solid #99aab5;
 }
 
 .center {
-    font-family: sans-serif;
-  font-weight:800;
-  font-size:40px;
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 40px;
   text-align: center;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  min-height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
