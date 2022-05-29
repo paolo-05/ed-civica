@@ -1,47 +1,29 @@
 :root {
-  --main-color: #00aaff;
-  --background: #1d1d1e;
-  --secondary: #00aaff;
-  --link: #00aaff;
+  --main-color: #fff;
+  --background: #fff;
+  --secondary: #fff;
+  --link: #fff;
   --text-color: #fff;
   --secondary-text-color: #dcdcdc;
 }
 
 ::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: black;
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--main-color);
+  width: 0;
 }
 
 h1 {
   margin: 30px;
   text-align: center;
-  color: var(--main-color);
+  color: #178d8f;
+  font-weight: bold;
 }
 h2 {
   margin: 30px;
   text-align: center;
   color: var(--main-color);
 }
-
-img {
-  width: fit-content;
-  height: fit-content;
-}
 div {
   color: var(--text-color);
-}
-
-.grigio {
-  background: #99aab5;
-  color: var(--text-color);
-  border: 10px solid #99aab5;
 }
 
 .center {

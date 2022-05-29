@@ -4,7 +4,7 @@ const Quattro = () => {
   document.title = "Paura del Cambiamento - Logo";
   return (
     <>
-      <h1>Logo</h1>
+      <h1>LOGO</h1>
       <div className="container">
         <div className="row">
           <div className="col-sm">

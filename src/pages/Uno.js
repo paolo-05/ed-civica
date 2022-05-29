@@ -1,3 +1,4 @@
+import { Image } from "react-bootstrap";
 import Footer from "../components/Footer";
 
 const Uno = () => {
@@ -5,12 +6,13 @@ const Uno = () => {
   return (
     <>
       <header>
-        <h1 className="grigio">Porta Narrativa</h1>
+        <h1 className="grigio">PORTA NARRATIVA</h1>
       </header>
       <div className="container">
         <div className="row">
           <div className="col-sm">
-            <img
+            <Image
+              fluid="true"
               src="https://images-na.ssl-images-amazon.com/images/I/51RR6UyJQpL._SY458_BO1,204,203,200_.jpg"
               alt="elefante incatenato"
               style={{ borderRadius: 30 }}

@@ -1,19 +1,21 @@
 import Footer from "../components/Footer";
+import { Image } from "react-bootstrap";
 
 const Home = () => {
   document.title = "Paura del Cambiamento - Home";
   return (
-    <div style={{ background: "var(--background)" }}>
+    <div>
       <header>
-        <h1 className="grigio">Paura del Cambiamento</h1>
+        <h1>LA PAURA DEL CAMBIAMENTO</h1>
       </header>
       <div className="container">
         <div className="row">
           <div className="col-sm">
-            <img
+            <Image
+              style={{ borderRadius: "10px" }}
+              fluid="true"
               src="./assets/not-changing.jpg"
               className="img-responsive"
-              style={{ borderRadius: "10px" }}
               alt="Not changing"
             />
           </div>
@@ -28,7 +30,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <h1 className="grigio">Il cambiamento secondo Aristotele</h1>
+      <header>
+        <h1>{"Il cambiamento secondo Aristotele".toUpperCase()}</h1>
+      </header>
       <div className="container">
         <div className="row">
           <div className="col-sm">
@@ -52,7 +56,9 @@ const Home = () => {
           </div>
           <div className="col-sm">
             <div className="img-container">
-              <img
+              <Image
+                style={{ borderRadius: "10px" }}
+                fluid="true"
                 src="https://www.thedifferentgroup.com/wp-content/uploads/2020/12/joshua-hoehne-rIUx_Q9_axw-unsplash_Fotor.jpg"
                 alt="trust"
                 className="img-responsive"
@@ -61,12 +67,16 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <h1 className="grigio">Cosa ci spinge a cambiare</h1>
+      <header>
+        <h1>{"Cosa ci spinge a cambiare".toUpperCase()}</h1>
+      </header>
       <div className="container">
         <div className="row">
           <div className="col-sm">
             <div className="img-container">
-              <img
+              <Image
+                style={{ borderRadius: "10px" }}
+                fluid="true"
                 src="https://www.thedifferentgroup.com/wp-content/uploads/2020/12/change-generic-1_Fotor.jpg"
                 alt="trust"
                 className="img-responsive"

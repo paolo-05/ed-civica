@@ -1,5 +1,6 @@
-import Footer from "../components/Footer";
 import Typewriter from "typewriter-effect";
+import Footer from "../components/Footer";
+
 const Tre = () => {
   const aforisma = "Sii il cambiamento che vuoi vedere nel mondo  ~ Ghandi";
   const spiegazione =
@@ -14,20 +15,20 @@ const Tre = () => {
   document.title = "Paura del Cambiamento - Aforisma";
   return (
     <>
-      <h1>Aforisma</h1>
+      <h1>AFORISMA</h1>
       <div className="center">
         <Typewriter
+          options={{ loop: true }}
           onInit={(typewriter) => {
             typewriter
-              
+
               .typeString(aforisma)
               .pauseFor(200)
               .deleteAll()
               .changeDelay(50)
               .typeString(spiegazione)
               .deleteAll()
-              .start()
-              ;
+              .start();
           }}
         />
       </div>

@@ -1,6 +1,6 @@
-import { useLocation } from "react-router-dom";
-
+import { useLocation, Link } from "react-router-dom";
 import Footer from "../components/Footer";
+
 const NotFound = () => {
   let location = useLocation();
   document.title = "Paura del Cambiamento - 404";
@@ -13,6 +13,11 @@ const NotFound = () => {
       <div className="container">
         <h1 style={{ color: "var(--secondary-text-color)" }}>
           Nessun risultato per <code>{location.pathname}</code>
+        </h1>
+        <h1>
+          <Link style={{ color: "var(--link)" }} to="/">
+            homepage
+          </Link>
         </h1>
       </div>
       <Footer />
