@@ -19,13 +19,15 @@ const Tre = () => {
         <Typewriter
           onInit={(typewriter) => {
             typewriter
+              
               .typeString(aforisma)
               .pauseFor(200)
               .deleteAll()
               .changeDelay(50)
               .typeString(spiegazione)
-              .pauseFor(50)
-              .start();
+              .deleteAll()
+              .start()
+              ;
           }}
         />
       </div>

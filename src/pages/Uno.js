@@ -12,6 +12,7 @@ const Uno = () => {
           <div className="col-sm">
             <img
               src="https://images-na.ssl-images-amazon.com/images/I/51RR6UyJQpL._SY458_BO1,204,203,200_.jpg"
+              alt="elefante incatenato"
               style={{ borderRadius: 30 }}
             />
           </div>
