@@ -5,17 +5,19 @@
   --link: #fff;
   --text-color: #fff;
   --secondary-text-color: #dcdcdc;
+  --bluerde: #178d8f;
 }
-
 ::-webkit-scrollbar {
   width: 0;
 }
-
 h1 {
   margin: 30px;
   text-align: center;
   color: #178d8f;
   font-weight: bold;
+}
+h1.top {
+  font-family: "Alfa Slab One";
 }
 h2 {
   margin: 30px;
@@ -25,7 +27,6 @@ h2 {
 div {
   color: var(--text-color);
 }
-
 .center {
   font-family: sans-serif;
   font-weight: 800;
@@ -36,8 +37,26 @@ div {
   align-items: center;
   min-height: 100vh;
 }
-.centrato-vert{
+.centrato-vert {
   display: flex;
   align-items: center;
   min-height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+div.card-body {
+  color: black;
+}
+ul.senza {
+  list-style: none;
+}
+.footer {
+  margin: 50px 0 0 0;
+}
+td,
+th,
+a.tr {
+  color: var(--main-color);
 }

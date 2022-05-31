@@ -15,7 +15,7 @@ const Tre = () => {
   document.title = "Paura del Cambiamento - Aforisma";
   return (
     <>
-      <h1>AFORISMA</h1>
+      <h1 className="top">AFORISMA</h1>
       <div className="center">
         <Typewriter
           options={{ loop: true }}

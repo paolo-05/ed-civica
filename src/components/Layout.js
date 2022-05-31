@@ -24,7 +24,7 @@ const Layout = () => {
               <Nav.Link href="/citt" style={{ color: "var(--main-color)" }}>
                 CITTADINANZA DIGITALE
               </Nav.Link>
-              <Nav.Link href="/Aforisma" style={{ color: "var(--main-color)" }}>
+              <Nav.Link href="/aforisma" style={{ color: "var(--main-color)" }}>
                 AFORISMA
               </Nav.Link>
               <Nav.Link href="/logo" style={{ color: "var(--main-color)" }}>

@@ -4,7 +4,7 @@ const Due = () => {
   document.title = "Paura del Cambiamento - Cittadinanza  Digitale";
   return (
     <>
-      <h1>{"Cittadinanza Digitale".toUpperCase()}</h1>
+      <h1 className="top">{"Cittadinanza Digitale".toUpperCase()}</h1>
       <Footer />
     </>
   );

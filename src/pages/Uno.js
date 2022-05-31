@@ -6,7 +6,7 @@ const Uno = () => {
   return (
     <>
       <header>
-        <h1 className="grigio">PORTA NARRATIVA</h1>
+        <h1 className="top">PORTA NARRATIVA</h1>
       </header>
       <div className="container">
         <div className="row">

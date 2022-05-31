@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <header>
-        <h1>LA PAURA DEL CAMBIAMENTO</h1>
+        <h1 className="top">LA PAURA DEL CAMBIAMENTO</h1>
       </header>
       <div className="container">
         <div className="row">
