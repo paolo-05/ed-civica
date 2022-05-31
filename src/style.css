@@ -36,3 +36,8 @@ div {
   align-items: center;
   min-height: 100vh;
 }
+.centrato-vert{
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}

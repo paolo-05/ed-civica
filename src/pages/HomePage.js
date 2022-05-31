@@ -14,9 +14,9 @@ const Home = () => {
             <Image
               style={{ borderRadius: "10px" }}
               fluid="true"
-              src="./assets/not-changing.jpg"
-              className="img-responsive"
+              src="https://www.psicologo-milano.org/wp-content/uploads/2018/05/Scritta-con-le-tesserine.jpg"
               alt="Not changing"
+              className="img-responsive"
             />
           </div>
           <div className="col-sm">
