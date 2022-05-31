@@ -123,6 +123,9 @@ const Lavoro = () => {
         inoltre degli svg (immagini vettoriali), ad esempio quello a fondo
         pagina, che a loro volta danno un senso di tridimensionalità che senza
         di esssa, magari usando un tag <code>{" <hr /> "}</code>non si avrebbe.
+        Il sito è stato caricato su heroku, un servizio gratuito abbastanza
+        decente che consente un limitato traffico, ma per ciò che interessa a
+        noi basta e avanza.
       </div>
       <Footer />
     </div>
